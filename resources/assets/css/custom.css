@@ -1,0 +1,39 @@
+table.journal{
+    border-collapse:collapse;
+}
+table.journal td {
+    padding: 10px;
+    border: 1px #0a001f solid;
+}
+table.journal tr:hover{
+    color: #000000;
+    background: #a5ff9d;
+}
+th.rotate {
+    height: 140px;
+    white-space: nowrap;
+}
+
+th.rotate > div {
+    transform:
+            translateY(51px)
+            rotate(-90deg);
+    width: 30px;
+}
+td.rotate > div > span {
+    padding: 0 10px;
+}
+td.rotate {
+    height: 140px;
+    white-space: nowrap;
+}
+
+td.rotate > div {
+    transform:
+            translateY(51px)
+            rotate(-90deg);
+    width: 30px;
+}
+td.rotate > div > span {
+    padding: 0 10px;
+}
